@@ -12,7 +12,10 @@ def main():
 
         screen.fill("green")
         pygame.display.flip()
-        print("Hallo")
+        clock = pygame.time.Clock()
+        dt = 0
+        returnTime = clock.tick(3600)
+        dt = returnTime / 1000
         
 
 
